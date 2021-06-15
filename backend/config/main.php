@@ -15,7 +15,7 @@ return [
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
-            'baseUrl' => '/yiiadvanced/admin',
+            'baseUrl' => '/admin',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -39,7 +39,7 @@ return [
             'errorAction' => 'site/error',
         ],
         'urlManager' => [
-            'baseUrl'   => '/yiiadvanced/admin',
+            'baseUrl'   => '/admin',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
